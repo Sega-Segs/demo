@@ -1,15 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import BasicAlerts from './Button-app';
-import BasicTabs from './jlk';
+import MenuAppBar from './Navbar';
+import LabelBottomNavigation from './Footer';
+import ActionAreaCard from './Card';
 
 function App() {
   return (
     <div className="App">
        
-        <BasicTabs></BasicTabs>
-      
+        <MenuAppBar></MenuAppBar>
+        <ActionAreaCard></ActionAreaCard>
+        <LabelBottomNavigation />
+        
     </div>
   );
 }
