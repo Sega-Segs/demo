@@ -54,7 +54,7 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        Item AA
+        Item AAA
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item bi
